@@ -1,8 +1,15 @@
 {
   "name": "@paybridge/sdk",
   "version": "1.0.0",
+  "description": "Official PayBridge SDK",
   "main": "index.js",
-  "dependencies": {
-    "@payflow/sdk": "^1.0.0"
-  }
+  "type": "module",
+  "keywords": [
+    "paybridge",
+    "payments",
+    "xero",
+    "flowsync"
+  ],
+  "author": "PayBridge",
+  "license": "MIT"
 }
