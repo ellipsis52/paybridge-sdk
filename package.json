@@ -4,12 +4,5 @@
   "description": "Official PayBridge SDK",
   "main": "index.js",
   "type": "module",
-  "keywords": [
-    "paybridge",
-    "payments",
-    "xero",
-    "flowsync"
-  ],
-  "author": "PayBridge",
   "license": "MIT"
 }
