@@ -1,21 +1,13 @@
-export class PayBridge {
+export default class PayBridge {
   constructor(apiKey) {
     this.apiKey = apiKey;
     this.baseUrl = "https://api.paybridge.buzz";
   }
 
-  async createPayment(data) {
-    const response = await fetch(`${this.baseUrl}/payments`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${this.apiKey}`
-      },
-      body: JSON.stringify(data)
-    });
-
-    return response.json();
+  async ping() {
+    return {
+      success: true,
+      provider: "PayBridge"
+    };
   }
 }
-
-export default PayBridge;
