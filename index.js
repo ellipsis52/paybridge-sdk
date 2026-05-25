@@ -1,7 +1,7 @@
 export default class PayBridge {
   constructor(apiKey) {
     this.apiKey = apiKey;
-    this.baseUrl = "https://api.paybridge.buzz";
+    this.baseUrl = "https://api.paybridge.website";
   }
 
   async ping() {
